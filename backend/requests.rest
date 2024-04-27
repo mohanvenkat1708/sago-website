@@ -1,1 +1,14 @@
 POST http://localhost:5000/login
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{"email":"dharma.21it@kongu.edu","password":"dharma"}
+###
+POST http://localhost:5000/cart-items
+Authorization: 
+
+###
+POST http://localhost:5000/fetch-varieties-data
+
+        
